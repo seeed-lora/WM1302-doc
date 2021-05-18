@@ -114,15 +114,15 @@ SX1261_RESET_PIN=22     # SX1261 reset (LBT / Spectral Scan)
 AD5338R_RESET_PIN=13    # AD5338R reset (full-duplex CN490 reference design)
 ```
 
-Use the navigation keys to move the cursor, change `SX1302_RESET_PIN=23` to `SX1302_RESET_PIN=25` and `SX1261_RESET_PIN=22` to `SX1261_RESET_PIN=17`, as following:
+Use the navigation keys to move the cursor, change `SX1302_RESET_PIN=23` to `SX1302_RESET_PIN=17` and `SX1261_RESET_PIN=22` to `SX1261_RESET_PIN=5`, as following:
 
 ```
 # GPIO mapping has to be adapted with HW
 #
 
-SX1302_RESET_PIN=25     # SX1302 reset
+SX1302_RESET_PIN=17     # SX1302 reset
 SX1302_POWER_EN_PIN=18  # SX1302 power enable
-SX1261_RESET_PIN=17     # SX1261 reset (LBT / Spectral Scan)
+SX1261_RESET_PIN=5      # SX1261 reset (LBT / Spectral Scan)
 AD5338R_RESET_PIN=13    # AD5338R reset (full-duplex CN490 reference design)
 ```
 
